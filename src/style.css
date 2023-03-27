@@ -1,0 +1,151 @@
+<style type="text/css"> 
+
+    *{ padding:2px;
+        margin:2px;
+      }
+
+    body { font-family:  Hermit, sans-serif;
+      font-variant-caps: normal ;
+      /*margin:10px;*/
+    }
+
+    figure{
+      display:flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .img-logo, #pesquisa {
+      display:flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 3px;
+    }
+
+    #pesquisa > input{
+      width: 35vw;
+      border-radius: 20px;
+	  height:30px;
+    }
+
+    #pesquisa > a:hover{
+      opacity: .4;
+    }
+
+     .img-logo>a:hover{
+      opacity: .4;
+    }
+
+		#menu ul{ 
+      display:flex;
+      justify-content: center;
+      gap:5px;
+      align-items: center;
+      flex-wrap:wrap;
+		 }
+
+    /*nav {
+      border:0px;
+      display:flex;
+      justify-content: space-between;
+      align-items: center;
+    }*/
+
+		#menu ul {
+			padding:2px;
+			margin:2px;
+			float: center;
+			width: 100%;
+			height: 30px;
+		/* background-color:white;*/
+			list-style:none;
+			font:80% Sans-serif;
+		}
+ 
+		#menu ul li { 
+      display: inline-block; 
+      height: 30px;
+     /* background-color:white;*/
+      border: 1px solid gray;
+      border-radius: 20px;
+		}
+
+		#menu ul li a {
+      /*background-color:#ffffff;*/
+			color: #333;
+			text-decoration: none;
+      /*border:1px solid gray;*/
+			padding: 2px 10px;
+			float:center;
+		}
+ 
+		#menu ul li a:hover {
+			background-color:#white;
+			color: #6D6D6D;
+			border-bottom:3px solid #4269e1;
+      border-radius: 20px;
+		}
+
+    main{
+      display:flex;
+      margin-top:110px;
+    }
+
+    .main-two{
+      display:absolute;
+      margin-left:8vw;
+    }
+    aside {
+      padding: 15px;
+      display:block;
+      position:sticky;
+      top:130px;
+      width:8vw;
+      height: 100vh;
+      z-index:3;
+      background-color:white;
+    }
+    header{
+      position:fixed;
+      top:0;
+      z-index:10;
+      background-color: white;
+      width: 100vw;
+    }
+
+
+/*CSS media query dentro de um stylesheet*/
+@media (max-width: 630px)
+{
+  #menu ul> li:nth-child(n + 5){
+  display:none;
+  }
+ 
+  figure > img {
+    width:90px;
+    height: 27px
+  }
+  
+  .img-logo > a:nth-child(-n + 0){
+  display:none;
+  }
+  
+  #pesquisa {
+    display:none;
+  }
+  
+   .main-two > center{
+    margin-top:10px;
+    display:inline;
+    }
+  
+  aside {
+    display:none;
+  }
+  
+  .main-two{
+    margin-left:10px;
+  }
+}
+	
+	</style>
