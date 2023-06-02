@@ -2,6 +2,7 @@
 
 A Pen created on CodePen.io. Original URL: [https://codepen.io/talilo-tarlison/pen/zYJyzdd](https://codepen.io/talilo-tarlison/pen/zYJyzdd).
 
+GitHUb Original URL: [https://talilotarlison.github.io/api-google-favoritos/](https://talilotarlison.github.io/api-google-favoritos/).
 ### TECNOLOGIAS USADA NO PROJETO:
 - CSS
 - JS
